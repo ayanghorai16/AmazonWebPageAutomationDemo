@@ -1,0 +1,8 @@
+***Test Cases***, ${Test Case Name} ,${Execution Flag}
+"Open Amazon Webpage
+",Open Amazon Webpage,Y
+TC_1.1,TC_1.1,Y
+TC_1.2,TC_1.2,Y
+TC_1.3,TC_1.3,Y
+TC_1.4,TC_1.4,Y
+TC_1.5,TC_1.5,Y
