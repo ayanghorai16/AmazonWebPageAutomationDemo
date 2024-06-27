@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-06-27T11:03:32.913455" rpa="false" schemaversion="5">
+<suite id="s1" name="AutomationFrameWork" source="D:\AYAN PYCHARM PRACTICE 18_06_2024\AutomationFrameWork">
+<suite id="s1-s1" name="TestCases" source="D:\AYAN PYCHARM PRACTICE 18_06_2024\AutomationFrameWork\TestCases">
+<suite id="s1-s1-s1" name="TestSuites" source="D:\AYAN PYCHARM PRACTICE 18_06_2024\AutomationFrameWork\TestCases\TestSuites.robot">
+<test id="s1-s1-s1-t1" name="Open Amazon Webpage&#10;" line="18">
+<kw name="Automation_Script">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Run Keywords" owner="BuiltIn">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-27T11:03:37.736703" level="INFO">Open Amazon Webpage</msg>
+<arg>${Test Case Name}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-27T11:03:37.736703" elapsed="0.001001"/>
+</kw>
+<kw name="Open Amazon Webpage" owner="keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-06-27T11:03:37.741706" level="INFO">Opening browser 'CHROME' to base url 'https://www.amazon.in/'.</msg>
+<arg>${Amazon_URL}</arg>
+<arg>CHROME</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-06-27T11:03:37.739705" elapsed="19.709145"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-06-27T11:03:57.450852" elapsed="0.806539"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T11:04:03.260702" level="INFO">Slept 5 seconds.</msg>
+<arg>${T2}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T11:03:58.259392" elapsed="5.002318"/>
+</kw>
+<status status="PASS" start="2024-06-27T11:03:37.738705" elapsed="25.524005"/>
+</kw>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>Open Amazon Webpage</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="PASS" start="2024-06-27T11:03:37.735703" elapsed="25.527007"/>
+</kw>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='Open Amazon Webpage'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>Open Amazon Webpage</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.1'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.1</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.2'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.2</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.3'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.3</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.4'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.4</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.5'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.5</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='N'</arg>
+<arg>Run Keywords</arg>
+<arg>Skip</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-06-27T11:03:37.732701" elapsed="25.530009"/>
+</kw>
+<arg>Test Case Name=Open Amazon Webpage</arg>
+<arg>Execution Flag=Y</arg>
+<status status="PASS" start="2024-06-27T11:03:37.726703" elapsed="25.538009"/>
+</kw>
+<tag>Test</tag>
+<status status="PASS" start="2024-06-27T11:03:37.718692" elapsed="25.547014"/>
+</test>
+<test id="s1-s1-s1-t2" name="TC_1.1" line="18">
+<kw name="Automation_Script">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Run Keywords" owner="BuiltIn">
+<kw name="Skip" owner="BuiltIn">
+<msg time="2024-06-27T11:04:03.284719" level="SKIP">Skipped with Skip keyword.</msg>
+<doc>Skips the rest of the current test.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.283718" elapsed="0.002001">Skipped with Skip keyword.</status>
+</kw>
+<arg>Skip</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.282717" elapsed="0.004004">Skipped with Skip keyword.</status>
+</kw>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='Open Amazon Webpage'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>Open Amazon Webpage</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.1'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.1</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.2'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.2</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.3'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.3</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.4'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.4</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.5'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.5</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='N'</arg>
+<arg>Run Keywords</arg>
+<arg>Skip</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.278715" elapsed="0.009011">Skipped with Skip keyword.</status>
+</kw>
+<arg>Test Case Name=TC_1.1</arg>
+<arg>Execution Flag=N</arg>
+<status status="SKIP" start="2024-06-27T11:04:03.276714" elapsed="0.015010">Skipped with Skip keyword.</status>
+</kw>
+<tag>Test</tag>
+<status status="SKIP" start="2024-06-27T11:04:03.269723" elapsed="0.024004">Skipped with Skip keyword.</status>
+</test>
+<test id="s1-s1-s1-t3" name="TC_1.2" line="18">
+<kw name="Automation_Script">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Run Keywords" owner="BuiltIn">
+<kw name="Skip" owner="BuiltIn">
+<msg time="2024-06-27T11:04:03.319741" level="SKIP">Skipped with Skip keyword.</msg>
+<doc>Skips the rest of the current test.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.318741" elapsed="0.002002">Skipped with Skip keyword.</status>
+</kw>
+<arg>Skip</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.317739" elapsed="0.004006">Skipped with Skip keyword.</status>
+</kw>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='Open Amazon Webpage'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>Open Amazon Webpage</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.1'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.1</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.2'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.2</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.3'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.3</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.4'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.4</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.5'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.5</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='N'</arg>
+<arg>Run Keywords</arg>
+<arg>Skip</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.309737" elapsed="0.012008">Skipped with Skip keyword.</status>
+</kw>
+<arg>Test Case Name=TC_1.2</arg>
+<arg>Execution Flag=N</arg>
+<status status="SKIP" start="2024-06-27T11:04:03.307735" elapsed="0.017012">Skipped with Skip keyword.</status>
+</kw>
+<tag>Test</tag>
+<status status="SKIP" start="2024-06-27T11:04:03.297729" elapsed="0.029019">Skipped with Skip keyword.</status>
+</test>
+<test id="s1-s1-s1-t4" name="TC_1.3" line="18">
+<kw name="Automation_Script">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Run Keywords" owner="BuiltIn">
+<kw name="Skip" owner="BuiltIn">
+<msg time="2024-06-27T11:04:03.416808" level="SKIP">Skipped with Skip keyword.</msg>
+<doc>Skips the rest of the current test.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.415808" elapsed="0.002001">Skipped with Skip keyword.</status>
+</kw>
+<arg>Skip</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.409803" elapsed="0.008006">Skipped with Skip keyword.</status>
+</kw>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='Open Amazon Webpage'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>Open Amazon Webpage</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.1'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.1</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.2'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.2</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.3'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.3</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.4'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.4</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.5'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.5</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='N'</arg>
+<arg>Run Keywords</arg>
+<arg>Skip</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.350767" elapsed="0.068043">Skipped with Skip keyword.</status>
+</kw>
+<arg>Test Case Name=TC_1.3</arg>
+<arg>Execution Flag=N</arg>
+<status status="SKIP" start="2024-06-27T11:04:03.346761" elapsed="0.074049">Skipped with Skip keyword.</status>
+</kw>
+<tag>Test</tag>
+<status status="SKIP" start="2024-06-27T11:04:03.329749" elapsed="0.092061">Skipped with Skip keyword.</status>
+</test>
+<test id="s1-s1-s1-t5" name="TC_1.4" line="18">
+<kw name="Automation_Script">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Run Keywords" owner="BuiltIn">
+<kw name="Skip" owner="BuiltIn">
+<msg time="2024-06-27T11:04:03.600931" level="SKIP">Skipped with Skip keyword.</msg>
+<doc>Skips the rest of the current test.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.599930" elapsed="0.001001">Skipped with Skip keyword.</status>
+</kw>
+<arg>Skip</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.597929" elapsed="0.004003">Skipped with Skip keyword.</status>
+</kw>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='Open Amazon Webpage'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>Open Amazon Webpage</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.1'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.1</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.2'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.2</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.3'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.3</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.4'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.4</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.5'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.5</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='N'</arg>
+<arg>Run Keywords</arg>
+<arg>Skip</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.588923" elapsed="0.013009">Skipped with Skip keyword.</status>
+</kw>
+<arg>Test Case Name=TC_1.4</arg>
+<arg>Execution Flag=N</arg>
+<status status="SKIP" start="2024-06-27T11:04:03.586922" elapsed="0.017011">Skipped with Skip keyword.</status>
+</kw>
+<tag>Test</tag>
+<status status="SKIP" start="2024-06-27T11:04:03.558902" elapsed="0.048033">Skipped with Skip keyword.</status>
+</test>
+<test id="s1-s1-s1-t6" name="TC_1.5" line="18">
+<kw name="Automation_Script">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Run Keywords" owner="BuiltIn">
+<kw name="Skip" owner="BuiltIn">
+<msg time="2024-06-27T11:04:03.631951" level="SKIP">Skipped with Skip keyword.</msg>
+<doc>Skips the rest of the current test.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.630951" elapsed="0.001000">Skipped with Skip keyword.</status>
+</kw>
+<arg>Skip</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.628952" elapsed="0.005001">Skipped with Skip keyword.</status>
+</kw>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='Open Amazon Webpage'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>Open Amazon Webpage</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.1'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.1</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.2'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.2</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.3'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.3</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.4'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.4</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='Y' and '${Test Case Name}'=='TC_1.5'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>${Test Case Name}</arg>
+<arg>AND</arg>
+<arg>TC_1.5</arg>
+<arg>ELSE IF</arg>
+<arg>'${Execution Flag}'=='N'</arg>
+<arg>Run Keywords</arg>
+<arg>Skip</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="SKIP" start="2024-06-27T11:04:03.621945" elapsed="0.012008">Skipped with Skip keyword.</status>
+</kw>
+<arg>Test Case Name=TC_1.5</arg>
+<arg>Execution Flag=N</arg>
+<status status="SKIP" start="2024-06-27T11:04:03.619943" elapsed="0.016012">Skipped with Skip keyword.</status>
+</kw>
+<tag>Test</tag>
+<status status="SKIP" start="2024-06-27T11:04:03.609938" elapsed="0.028017">Skipped with Skip keyword.</status>
+</test>
+<status status="PASS" start="2024-06-27T11:03:33.385775" elapsed="30.260188"/>
+</suite>
+<status status="PASS" start="2024-06-27T11:03:33.377769" elapsed="30.283203"/>
+</suite>
+<status status="PASS" start="2024-06-27T11:03:32.941487" elapsed="30.727489"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="5">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="5">Test</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="5" id="s1" name="AutomationFrameWork">AutomationFrameWork</stat>
+<stat pass="1" fail="0" skip="5" id="s1-s1" name="TestCases">AutomationFrameWork.TestCases</stat>
+<stat pass="1" fail="0" skip="5" id="s1-s1-s1" name="TestSuites">AutomationFrameWork.TestCases.TestSuites</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
