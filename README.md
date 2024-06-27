@@ -1,0 +1,1 @@
+This is a hybrid (data driven and keyword driven) robot framework for UI (User Interface) Automation. I created this framework to represent my automation skill. This framework is under development stage.
